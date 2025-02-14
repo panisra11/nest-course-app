@@ -9,19 +9,18 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-
-  @Get(' /showname') 
+  @Get('showName')
   getName(): string {
     return this.appService.getName();
   }
+  // @Get('/showjson')
+  // getJson() {
+  //   return this.appService.getJson();
+  // }
 
-  @Get(' /showinformation') 
-  showInfo(): string {
-    return this.appService.getInfo();
-  }
+  @Get('/showGit')
+  getGitandGithup() {
+    return this.appService.getGitandGithup();
+}
 
-  @Get(' /showjson') 
-  getjson() {
-    return this.appService.getjson();
-  }
 }

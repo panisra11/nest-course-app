@@ -6,13 +6,17 @@ export class AppService {
     return 'love pc';
   }
   getName(): string {
-    return 'Opor';
+    return 'Panisra';
   }
-  getJson() {
-    return {
-      name: 'Panisra',
-      lastname: 'Kasuk',
-      age: 19,
-    };
+  // getJson() {
+  //   return {
+  //     name: 'Panisra',
+  //     lastname: 'Kasuk',
+  //     age: 19,
+  //   };
+  // }
+
+  getGitandGithup(){
+    return 'Git and Githup using';
   }
 }
