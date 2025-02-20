@@ -21,6 +21,9 @@ export class AppController {
   @Get('/showGit')
   getGitandGithup() {
     return this.appService.getGitandGithup();
-}
-
+  }
+  @Get('/usepostman')
+  getPostman() {
+    return this.appService.getPostman();
+  }
 }
